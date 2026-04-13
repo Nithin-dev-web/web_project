@@ -3,7 +3,7 @@ import os
 import glob
 
 # Base directory where videos and folders are located
-BASE_DIR = r"C:\Users\Ramya S\Downloads\Vendor_video"
+BASE_DIR = r"C:\Users\Nithin Kumar G\Downloads\Vendor_video"
 
 # Get all MP4 videos in base directory
 videos = [f for f in os.listdir(BASE_DIR) if f.lower().endswith(".mp4")]
